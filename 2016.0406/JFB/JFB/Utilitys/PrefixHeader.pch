@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  JFB
+//
+//  Created by JY on 15/8/13.
+//  Copyright (c) 2015年 JY. All rights reserved.
+//
+
+#ifndef JFB_PrefixHeader_pch
+#define JFB_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#import <SystemConfiguration/SystemConfiguration.h>
+//#import <MobileCoreServices/MobileCoreServices.h>
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import "Masonry.h"
+#import "Definition.h"
+#import "DataRequest.h"
+#import "MBProgressHUD.h"
+#import "GlobalSetting.h"
+#import "UIImageView+UIActivityIndicatorForSDWebImage.h"
+#import "UIButton+WebCache.h"
+#import "UIView+JFBExtension.h"
+#import <UIImageView+WebCache.h>
+#import "NSDate+DPExtension.h"
+#import "NSString+DPExtension.h"
+#import "NSString+DPStringSize.h"
+#import "DPCurrentPhotoIndex.h"
+#import "MYAlertView.h"
+#ifdef DEBUG//处于开发阶段
+#define JFBLog(...)NSLog(__VA_ARGS__)
+#else//处于发布阶段
+#define JFBLog(...)
+#endif
+#endif
+
+
+
+
+#endif

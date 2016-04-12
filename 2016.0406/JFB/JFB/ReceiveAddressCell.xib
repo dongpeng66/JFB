@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReceiveddrCell" rowHeight="99" id="KGk-i7-Jjw" customClass="ReceiveAddressCell">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="98"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="李强的手机是" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BS-9I-COh">
+                        <rect key="frame" x="8" y="13" width="100" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="9bm-af-Clh"/>
+                            <constraint firstAttribute="width" constant="100" id="9jS-Dp-YEK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13843848388" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qkx-kN-XwP">
+                        <rect key="frame" x="113" y="13" width="116" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="CZF-WQ-Qfp"/>
+                            <constraint firstAttribute="width" constant="116" id="qGc-Ig-c4v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="默认" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkq-uO-Qhj">
+                        <rect key="frame" x="249" y="13" width="35" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="8mv-qB-iwP"/>
+                            <constraint firstAttribute="width" constant="35" id="YgZ-5B-Qey"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="浙江省杭州市萧山区北干街道建设一路风情大道口中栋国际银座1幢18楼" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dx5-WS-9fp">
+                        <rect key="frame" x="8" y="45" width="283" height="45"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.27335858585858586" green="0.27335858585858586" blue="0.27335858585858586" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="to_info_mini_gray.png" translatesAutoresizingMaskIntoConstraints="NO" id="R1X-0J-tmX">
+                        <rect key="frame" x="294" y="37" width="8" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="0CR-Cw-WLm"/>
+                            <constraint firstAttribute="width" constant="8" id="YF6-rp-R8F"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Qkx-kN-XwP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="ExY-U6-TV9"/>
+                    <constraint firstItem="R1X-0J-tmX" firstAttribute="leading" secondItem="Dx5-WS-9fp" secondAttribute="trailing" constant="3" id="KgQ-yd-9kj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="R1X-0J-tmX" secondAttribute="trailing" constant="7" id="OnK-tU-U0i"/>
+                    <constraint firstItem="Dx5-WS-9fp" firstAttribute="top" secondItem="4BS-9I-COh" secondAttribute="bottom" constant="3" id="PFc-5I-Frw"/>
+                    <constraint firstItem="Dx5-WS-9fp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Tqn-01-UWh"/>
+                    <constraint firstItem="zkq-uO-Qhj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="VJY-b6-zrn"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Dx5-WS-9fp" secondAttribute="bottom" id="aQX-Cx-aLG"/>
+                    <constraint firstItem="R1X-0J-tmX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="29" id="kBA-Er-4fL"/>
+                    <constraint firstItem="4BS-9I-COh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="khR-66-PTC"/>
+                    <constraint firstItem="4BS-9I-COh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="rEo-Zc-HQW"/>
+                    <constraint firstItem="Qkx-kN-XwP" firstAttribute="leading" secondItem="4BS-9I-COh" secondAttribute="trailing" constant="5" id="v4A-9Q-NUv"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="zkq-uO-Qhj" secondAttribute="trailing" constant="25" id="w8q-87-gJV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="defaultL" destination="zkq-uO-Qhj" id="6M2-xk-9HM"/>
+                <outlet property="lqAddressMSG" destination="Dx5-WS-9fp" id="Qna-bh-9Sm"/>
+                <outlet property="nameL" destination="4BS-9I-COh" id="cGK-ds-pZ6"/>
+                <outlet property="phoneL" destination="Qkx-kN-XwP" id="EBX-kL-hMD"/>
+            </connections>
+            <point key="canvasLocation" x="459.5" y="201.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="to_info_mini_gray.png" width="11" height="19"/>
+    </resources>
+</document>
