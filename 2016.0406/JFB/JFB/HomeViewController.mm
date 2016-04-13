@@ -34,6 +34,7 @@
 #import "GoodsDetailViewController.h"
 #import "TitleVIew.h"
 #import "Specialty.h"
+#import "AppDelegate.h"
 #define Head_View_Height            402     //广告图 + 分类菜单 + 活动
 #define Head_ScrollView_Height      180
 #define Head_PageControl_Width     80
